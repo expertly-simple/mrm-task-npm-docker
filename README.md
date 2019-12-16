@@ -1,7 +1,13 @@
 # mrm-task-npm-docker
 MRM task to configure your npm project with scripts to build, debug, and publish Docker containers
 
-These are generic npm scripts that you can copy & paste into your `package.json` file as-is and get access to convinience scripts to manage your Docker images all in one place.
+These are generic npm scripts that you can configure your `package.json` file with and get access to convinience scripts to manage your Docker images all in one place.
+
+## How to User
+```
+npm i -g mrm-task-npm-docker
+npx mrm npm-docker
+```
 
 > Looking for _npm scripts for AWS ECS_? Go [here](https://gist.github.com/duluca/2b67eb6c2c85f3d75be8c183ab15266e#file-npm-scripts-for-aws-ecs-md)!
 
