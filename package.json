@@ -1,14 +1,14 @@
 {
-  "name": "mrm-task-angular-vscode",
-  "version": "1.2.0",
-  "description": "MRM task to configure VS Code and Angular project with an optimized development experience",
+  "name": "mrm-task-npm-docker",
+  "version": "1.0.0",
+  "description": "MRM task to configure your npm project with scripts to build, debug, and publish Docker containers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/expertly-simple/mrm-task-angular-vscode.git"
+    "url": "git+https://github.com/expertly-simple/mrm-task-npm-docker.git"
   },
   "keywords": [
     "mrm",
@@ -19,9 +19,9 @@
   "author": "Doguhan Uluca",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/expertly-simple/mrm-task-angular-vscode/issues"
+    "url": "https://github.com/expertly-simple/mrm-task-npm-docker/issues"
   },
-  "homepage": "https://github.com/expertly-simple/mrm-task-angular-vscode#readme",
+  "homepage": "https://github.com/expertly-simple/mrm-task-npm-docker#readme",
   "dependencies": {
     "mrm-core": "^4.0.0"
   }
