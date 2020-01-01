@@ -1,9 +1,9 @@
 # mrm-task-npm-docker
 MRM task to configure your npm project with scripts to build, debug, and publish Docker containers
 
-These are generic npm scripts that you can configure your `package.json` file with and get access to convinience scripts to manage your Docker images all in one place.
+These are generic npm scripts that you can configure your `package.json` file with and get access to convinient scripts to manage your Docker images all in one place.
 
-## How to User
+## How to Use
 ```
 npm i -g mrm-task-npm-docker
 npx mrm npm-docker
@@ -81,7 +81,7 @@ You're done. Now run your scripts. To build and publish an image you only need t
 2. **`npm run docker:publish`:** Voila, your results are published on the repository you've defined.
 
 ## Publish on the Internet
-You've two options, easy-ish and hard.
+You've got two options, easy-ish and hard.
 1. **Easy-ish:** Use [Cloud Run](https://cloud.google.com/run/)
 Install the CLI:
 ```bash
