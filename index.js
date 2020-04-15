@@ -52,12 +52,12 @@ function configureNpmScripts() {
   scripts.forEach(e => pkg.setScript(e[0], e[1]).save())
 
   if(!pkg.get('config')) {
-    pkg.set('config', {})
+    pkg.set('config', {}).save()
   }
   
   config.forEach(e => {
     if(!pkg.get(`config.${e[0]}`)) {
-      pkg.set(`config.${e[0]}`, e[1])
+      pkg.set(`config.${e[0]}`, e[1]).save()
     }
   })
 }
