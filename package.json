@@ -4,7 +4,11 @@
   "description": "MRM task to configure your npm project with scripts to build, debug, and publish Docker containers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "chmod +x tests/test-local.sh",
+    "test": "./tests/test-local.sh",
+    "change": "beachball change",
+    "check": "beachball check",
+    "beachball:publish": "beachball publish"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,9 @@
   "homepage": "https://github.com/expertly-simple/mrm-task-npm-docker#readme",
   "dependencies": {
     "mrm-core": "^6.1.2"
+  },
+  "devDependencies": {
+    "beachball": "^2.10.2",
+    "mrm": "^3.0.5"
   }
 }
